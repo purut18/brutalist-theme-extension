@@ -1,0 +1,20 @@
+{
+    "name": "Brutalist Theme",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "web_accessible_resources": [{
+        "resources": [ "./brutal_styles.css" ],
+        "matches": [ "*://*/*" ],
+        "extenion_ids": []
+    }],
+    "host_permissions": [
+        "*://*/*"
+    ]
+}

@@ -1,0 +1,51 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap');
+
+* {
+    font-family: "Chivo", sans-serif !important;
+    color: black !important;
+}
+
+button,
+a[style*="display:block"] {
+    background-color: #FFFFFF !important;
+    border: 2px solid black !important;
+    border-radius: 0 !important;
+    box-sizing: border-box !important;
+    color: #000000 !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    box-shadow: 4px 4px 0 black !important;
+}
+
+button:hover,
+a[style*="display:block"]:hover {
+    background-color: ghostwhite !important;
+}
+
+button:active,
+a[style*="display:block"]:active {
+    box-shadow: none !important;
+    translate: 4px 4px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    text-shadow: 2px 2px #f0963e !important;
+}
+
+p {
+    text-decoration: none !important;
+}
+
+:not(body) > a {
+    color: 2px 2px #f0963e !important;
+}
